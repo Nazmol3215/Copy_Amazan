@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Copy_Amazan./static/css/main.48c2b720.css",
+    "main.js": "/Copy_Amazan./static/js/main.bbce696c.js",
+    "static/js/453.b0709980.chunk.js": "/Copy_Amazan./static/js/453.b0709980.chunk.js",
+    "index.html": "/Copy_Amazan./index.html",
+    "main.48c2b720.css.map": "/Copy_Amazan./static/css/main.48c2b720.css.map",
+    "main.bbce696c.js.map": "/Copy_Amazan./static/js/main.bbce696c.js.map",
+    "453.b0709980.chunk.js.map": "/Copy_Amazan./static/js/453.b0709980.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48c2b720.css",
+    "static/js/main.bbce696c.js"
+  ]
+}
