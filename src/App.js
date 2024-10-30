@@ -1,5 +1,9 @@
 import './App.css';
-import ProductCard from './OtherPages/ProductCard';
+import MainRouter from './Mainrouterpage/MainPage';
+import ImageSlider from './SliderConter/ImageSlider ';
+import ProductCard from './categoriesContains/categoriesImage';
+
+
 
 
 
@@ -7,10 +11,10 @@ function App() {
   return (
     <div className="App">
 
-<h1>hey hoda</h1>
-lorem cvfh vxdtg clorem
 
-<ProductCard titleText="Executive  With White Body one" img="lop11.jpg"/>
+<MainRouter/>
+<ImageSlider/>
+<ProductCard/>
 
 
     </div>

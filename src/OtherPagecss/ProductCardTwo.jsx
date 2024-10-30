@@ -1,16 +1,17 @@
 import React from 'react';
 
 
+{/* <ProductCard titleText="Executive  With White Body one"  Taka="$626.84"  Review="1.9K+ bought in past month" img="mobail51.jpg" /> */}
 
 const ProductCard = (props) => {
   return (
-    <div className="container my-2">
+    <div className="container my-2 d-lg-flex">
       <div className="row justify-content-center">
         <div className="col-12 col-md-6 col-lg-6  product-card p-3 border rounded shadow-sm">
           <div className="row">
             {/* Product Image */}
             <div className="col-12 d-flex justify-content-center align-items-center mb-3 mb-md-0">
-            <img />
+            <img  src="mobail33.jpg"/>
             </div>
 
             {/* Product Details */}
