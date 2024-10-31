@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
-import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import React from "react";
-
+import fdhcvr from '../imagesAll/mob acca6.jpg';
+import fdhcvr1 from '../imagesAll/lop2.jpg';
+ 
 export default function NavBar() {
   return (
     <nav>
@@ -13,7 +14,7 @@ export default function NavBar() {
         <Navbar key={expand} expand={expand} className=" mb-3 NavbarBody">
           <Container fluid>
             <Navbar.Brand href="#">
-              <img className="logoImge" src="lop9.jpg" />
+              <img className="logoImge" src={fdhcvr} />
             </Navbar.Brand>
             <Form className="Sarceh_bar">
               <Form.Control
@@ -24,7 +25,7 @@ export default function NavBar() {
               />
               {/* <Button className="Sachbar_buton">Click</Button> */}
             </Form>
-            <img className="ShoppingCart" src="shopping_cart.png" />
+            <img className="logoImge" src= {fdhcvr1}/>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}

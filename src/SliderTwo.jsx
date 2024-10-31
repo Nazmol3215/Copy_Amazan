@@ -1,7 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
+import fcbhgj from '../src/imagesAll/lop44.jpg'
 
-const ImageSlider = () => {
+const ImageSliderone = () => {
   const settings = {
     dots: true,  // Shows navigation dots at the bottom
     infinite: true,  // Enables infinite scrolling
@@ -13,17 +14,21 @@ const ImageSlider = () => {
   };
 
   const images = [
-'logo192.png',
-'lop18.jpg',
-'logo192.png',
+    'lig00x600.jpg',
 
+'mob acca8.jpg',
+'lop2.jpg',
+'0.jpg',
 
 
 
   ];
 
+
   return (
     <div className="slider-container">
+  <img src={fcbhgj}/>
+
       <Slider {...settings}>
         {images.map((img, index) => (
           <div key={index}>
@@ -35,4 +40,4 @@ const ImageSlider = () => {
   );
 };
 
-export default ImageSlider;
+export default ImageSliderone;
