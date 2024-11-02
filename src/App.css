@@ -179,8 +179,8 @@ background-color: #cc0000;
   }
   
   .product-item img {
-    width: 100%;
-    height: auto;
+    width:103px;
+  height: 11 2px;
     border-radius: 4px;
   }
   
@@ -243,4 +243,12 @@ background-color: #cc0000;
 
   .logoImge{
     width: 65px;
+  }
+
+
+
+
+  .See_Details_button{
+    background-color:chartreuse;
+    width: 133px;
   }
