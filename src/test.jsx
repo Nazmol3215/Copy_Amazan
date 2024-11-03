@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import rdsgfx1 from '../src/imagesAll/_opsz24 (1).png';
-import rdsgfx2 from '../src/imagesAll/m8.webp';
-import rdsgfx3 from '../src/imagesAll/m9.webp';
-import rdsgfx4 from '../src/imagesAll/mob acca11.jpg';
-import rdsgfx5 from '../src/imagesAll/momail2.jpg';
-import hoda from "../src/imagesAll/mob acca10.jpg";
+import rdsgfx1 from '../src/imagesAll/1.jpg';
+import rdsgfx2 from '../src/imagesAll/2.jpg';
+import rdsgfx3 from '../src/imagesAll/3.jpg';
+import rdsgfx4 from '../src/imagesAll/4.jpg';
+import rdsgfx5 from '../src/imagesAll/6.jpg';
+import hoda from "../src/imagesAll/8.jpg";
 
 
 
@@ -48,7 +48,7 @@ const Slideshow = () => {
         <img
           src={images[currentIndex].src}
           alt={images[currentIndex].title}
-          className="main-image"
+          className="  accordion-button"
         />
         <button className="prev-btn" onClick={goToPrevSlide}>
           &#10094;

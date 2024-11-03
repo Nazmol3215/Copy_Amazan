@@ -10,6 +10,7 @@ import NavBar from '../HeadDatails/NavBar';
 import Computer from '../OfCAnvas/Computer';
 import Not_found from '../OfCAnvas/Not_found';
 import ProductPage from '../OrderDetailsPages/ProductPage ';
+import OrderComponent from '../ChatGPTtest/TeastOne';
 
 export default function All() {
   return (
@@ -34,6 +35,7 @@ export default function All() {
           <Route path="/Computer" element={<Computer />} />
           <Route path="/About" element={<About />} />
           <Route path="*" element={<Not_found />} />
+          <Route path="OrderComponent" element={<OrderComponent />} />
         </Routes>
       </BrowserRouter>
 

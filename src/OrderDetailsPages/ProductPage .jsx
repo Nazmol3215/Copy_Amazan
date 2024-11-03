@@ -1,8 +1,11 @@
 import React from 'react';
 import { Container, Row, Col, Button, Badge } from 'react-bootstrap';
 import Slideshow from '../test';
+import { useNavigate } from 'react-router-dom';
 
 const ProductPage = () => {
+  const ssss = useNavigate();
+
   return (
     <Container className="my-5">
       <Row>
@@ -54,8 +57,8 @@ const ProductPage = () => {
               </select>
             </Col>
             <Col>
-              <Button variant="warning" className="w-100 mb-2">Add to Cart</Button>
-              <Button variant="primary" className="w-100">Buy Now</Button>
+              <Button variant="warning" className="w-100 mb-2"    onClick={() => ssss("/OrderComponent")}>Add to Cart</Button>
+              <Button variant="primary" className="w-100"  onClick={() => ssss("/OrderComponent")}>Buy Now</Button>
             </Col>
           </Row>
 
