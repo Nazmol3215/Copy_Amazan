@@ -8,6 +8,8 @@ import CanteactUs from '../OfCAnvas/CanteactUs';
 import About from '../OfCAnvas/About';
 import NavBar from '../HeadDatails/NavBar';
 import Computer from '../OfCAnvas/Computer';
+import Not_found from '../OfCAnvas/Not_found';
+import ProductPage from '../OrderDetailsPages/ProductPage ';
 
 export default function All() {
   return (
@@ -18,6 +20,7 @@ export default function All() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/ProductPage" element={<ProductPage />} />
           <Route
             path="/AccasorisForcomputer"
             element={<AccasorisForcomputer />}
@@ -30,6 +33,7 @@ export default function All() {
           <Route path="/CanteactUs" element={<CanteactUs />} />
           <Route path="/Computer" element={<Computer />} />
           <Route path="/About" element={<About />} />
+          <Route path="*" element={<Not_found />} />
         </Routes>
       </BrowserRouter>
 

@@ -15,7 +15,7 @@ const categories = [
   { imgSrc: images4423 },
   { imgSrc: images4424 },
 ];
-const ProductCard = () => {
+const ProductCardTwo = () => {
 
   return (
     <div className="product-card">
@@ -33,4 +33,4 @@ const ProductCard = () => {
   );
 };
 
-export default ProductCard;
+export default ProductCardTwo;

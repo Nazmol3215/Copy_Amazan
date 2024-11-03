@@ -1,7 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
 const ProductCardFive = (props) => {
+  const ssss = useNavigate();
+
   return (
     <div className="container my-2 d-lg-flex">
       <div className="row justify-content-center">
@@ -29,7 +32,9 @@ const ProductCardFive = (props) => {
               <p className="delivery mb-1">Delivery Tue, Nov 12</p>
               <p className="shipping-info mb-1">Ships to Bangladesh</p>
               <p className="sustainability mb-2">1 sustainability feature 🌱</p>
-              <button className="btn btn-primary w-100 mb-2">Add to Cart</button>
+                  <button  className="btn btn-primary w-100 mb-2" onClick={() => ssss("/ProductPage")}>
+                  Order Now
+                </button>
               <p className="more-buying-choices">
                 More Buying Choices <span className="text-primary">$281.15</span> (3 used & new offers)
               </p>
