@@ -11,6 +11,11 @@ import Computer from '../OfCAnvas/Computer';
 import Not_found from '../OfCAnvas/Not_found';
 import ProductPage from '../OrderDetailsPages/ProductPage ';
 import OrderComponent from '../ChatGPTtest/TeastOne';
+import FirstContainer from '../categoriesContains/FirstContainer';
+import ProductGrid from '../categoriesContains/ProductGrid';
+
+
+
 
 export default function All() {
   return (
@@ -19,8 +24,10 @@ export default function All() {
 
       <BrowserRouter>
         <NavBar />
+      <FirstContainer/>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/ProductGrid" element={<ProductGrid />} />
           <Route path="/ProductPage" element={<ProductPage />} />
           <Route
             path="/AccasorisForcomputer"

@@ -4,7 +4,8 @@ import fdnvdseg1 from '../imagesAll/mob acca6.jpg';
 import fdnvdseg2 from '../imagesAll/momail2.jpg';
 import fdnvdseg3 from '../imagesAll/mob acca11.jpg';
 import fdnvdseg4 from '../imagesAll/mob acca6.jpg';
-
+import DetailsButon from '../OrderDetailsPages/DetailsButon';
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -61,6 +62,7 @@ const products = [
 ];
 
 const ProductSliderTwo = () => {
+  const navigateTwo = useNavigate();
   return (
     <div className="container my-4">
       <div className="row d-flex overflow-auto flex-nowrap">
@@ -70,14 +72,12 @@ const ProductSliderTwo = () => {
             key={index}
             style={{ minWidth: '250px' }}
           >
-            <div className="card h-100">
-              <img src={product.imgSrc} className="card-img-top" alt={product.title} />
+            <div className="card h-100"  onClick={() => navigateTwo("/MobaileDetails")}>
+              <img src={product.imgSrc} className="card-img-top" alt={product.title}   />
               <div className="card-body">
                 <h6 className="card-title">{product.title}</h6>
                 <p className="card-text text-warning">{product.rating}</p>
                 <p className="card-text text-success">Price: {product.price}</p>
-                <p className="card-text">Get it as soon as: <strong>{product.delivery}</strong></p>
-                <p className="card-text text-muted">{product.shipping}</p>
               </div>
             </div>
           </div>

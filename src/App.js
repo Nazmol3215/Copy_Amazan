@@ -3,18 +3,14 @@ import All from "./AllMain/All";
 import ScrollToTop from "./ScrollToTop";
 
 
-
-
-
 function App() {
   return (
     <div className="App">
-      <ScrollToTop />
+
+
       <All />
 
-
-
-
+      <ScrollToTop />
 
     </div>
   );

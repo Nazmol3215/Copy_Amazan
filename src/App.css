@@ -137,6 +137,7 @@ background-color: #cc0000;
 .Sar_bar{
   margin-left: -17px;
   width: 169px;
+  display: flex;
   
   }
 
@@ -238,11 +239,18 @@ background-color: #cc0000;
     height: auto;
     border: 1px solid #ddd;
     border-radius: 4px;
+    margin: auto;
   }
   
 
+  .logoImgeTwo{
+    width: 45px;
+    height: 35px;
+  }
+
   .logoImge{
-    width: 65px;
+    width: 55px;
+    height: 45px;
   }
 
 
@@ -428,4 +436,216 @@ background-color: #cc0000;
   
   .order-summary p {
     margin-bottom: 10px;
+  }
+
+
+
+
+
+
+  .containerFirst {
+    width: 480px;
+    padding: 2px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: auto;
+  }
+  .container h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  .grid-item img {
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 8px;
+  }
+  .grid-item:hover {
+    transform: scale(1.05);
+  }
+  .grid-item p {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+  }
+  .see-more {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #0073e6;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+
+  .ProductCardFive_mobailDetails{
+    width: 259px;
+  }
+
+
+
+
+
+
+  .product-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+  
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .product-img {
+    height: auto;
+    object-fit: cover;
+    margin: auto;
+  }
+  
+  .product-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-rating {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-price {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .current-price {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  
+  .original-price {
+    color: #888;
+    text-decoration: line-through;
+  }
+  
+  .delivery,
+  .shipping-info,
+  .sustainability {
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .order-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+  }
+  
+  .order-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .more-buying-choices {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .price {
+    color: #007bff;
+  }
+  
+  .color-options {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .color-option {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .color-option.black {
+    background-color: #000;
+  }
+  
+  .color-option.white {
+    background-color: #fff;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .product-card {
+      flex-direction: row;
+      max-width: 700px;
+    }
+  
+    .product-image, .product-details {
+      flex: 1;
+    }
+  
+    .product-image {
+      margin-bottom: 0;
+      padding-right: 1rem;
+    }
+  }
+  
+
+
+
+  .card-img-top{
+
+    height: 177px;
+  }
+
+
+  .option-image{
+    width: 177px;
+    height: 90px;
   }
